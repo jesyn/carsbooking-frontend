@@ -1,0 +1,72 @@
+{"cars":[{
+    "id": 1,
+    "portada_url":"https://media.discordapp.net/attachments/1031733711194046469/1032704738749333656/unknown.png",
+    "category":{
+        "category": "Classic"
+    },
+    "brand":"Ford",
+    "model": "Fiesta 2020",
+    "location": "Buenos Aires",
+    "description": "Un auto cómodo y accesible para recorrer los mejores puntos turísticos."
+    },
+    {
+    "id": 2,
+    "portada_url":"https://media.discordapp.net/attachments/1031733711194046469/1032704738749333656/unknown.png",
+    "category":"Classic",
+    "title":"Kia Rio 2018",
+    "location": "Mendoza",
+    "description": "Un auto cómodo y accesible para recorrer los mejores puntos turísticos."
+    },
+    {
+    "id": 3,
+    "portada_url":"https://media.discordapp.net/attachments/1031733711194046469/1032705480952397854/unknown.png?width=919&height=517",
+    "category":"Aventura",
+    "title":"Amarok",
+    "location": "Santa Cruz",
+    "description": "Para los aventureros que no quieren perderse nada, autos todo terreno."
+    },
+    {
+    "id": 4,
+    "portada_url":"https://media.discordapp.net/attachments/1031733711194046469/1032705480952397854/unknown.png?width=919&height=517",
+    "category":"Aventura",
+    "title":"Ranger",
+    "location": "Córdoba",
+    "description": "Para los aventureros que no quieren perderse nada, autos todo terreno."
+    },
+    {
+    "id": 5,
+    "portada_url":"https://portada_url.freepik.com/fotos-premium/coche-suv-familiar-premium-azul-aislado-sobre-fondo-blanco-renderizado-3d_101266-21596.jpg?w=1060",
+    "category":"Familiar",
+    "title":"Van",
+    "location": "Buenos Aires",
+    "description": "Gran espacio y comodidad para la familia o grupo de amigos, con espacio extra para equipaje."
+    },
+    {
+    "id": 6,
+    "portada_url":"https://portada_url.freepik.com/fotos-premium/coche-suv-familiar-premium-azul-aislado-sobre-fondo-blanco-renderizado-3d_101266-21596.jpg?w=1060",
+    "category":"Familiar",
+    "title":"Duster",
+    "location": "Sante Fe",
+    "description": "Gran espacio y comodidad para la familia o grupo de amigos, con espacio extra para equipaje."
+    },
+    {
+    "id": 7,
+    "portada_url":"https://a.ccdn.es/nuevos/400/ferrari/488/2016/2co.jpg",
+    "category":"Lujosos",
+    "title":"Audi TT",
+    "location": "Rosario",
+    "description": "Vive una experiencia a otro nivel."
+    },
+    {
+    "id": 8,
+    "portada_url":"https://a.ccdn.es/nuevos/400/ferrari/488/2016/2co.jpg",
+    "category":"Lujosos",
+    "title":"Ferrari",
+    "location": "Buenos Aires",
+    "description": "Vive una experiencia a otro nivel."
+    }
+    ]
+
+}
+
+

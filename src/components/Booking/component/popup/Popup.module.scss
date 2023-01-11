@@ -1,0 +1,84 @@
+@use "./../../../../styles/colors" as *;
+
+
+.popUp {
+    &backdrop {
+        background: rgba(240, 87, 45, 0.6);
+        bottom: 0;
+        left: 0;
+        overflow: auto;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &container {
+        background: $white;
+        border-radius: 8px;
+        max-width: 100%;
+        margin: 50px 10px;
+        width: 640px;
+        max-height: 100%;
+        z-index: 2;
+        position: relative;
+        padding: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    }
+    &bodypopUp{
+        text-align: center;
+    }
+    &button {
+        background-color: $orange;
+        border-radius: 5px;
+        color: $black;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 25px;
+        padding: 10px 50px;
+    }
+    &icon{
+        color: $orange;
+        font-size: 80px;
+        margin-bottom: 15px;
+    }
+    &h1{
+        color: $orange;
+        font-size: 24px;
+        font-weight: 700;
+        margin: 10px;
+    }
+    &h2{
+        color: $black;
+        font-size: 22;
+        font-weight: 700;
+    }
+}
+
+@media(min-width:768px){
+    /* STYLE: VERSION DESKTOP */
+    .popUp {
+        &container {
+            background: $white;
+            border-radius: 8px;
+            max-width: 100%;
+            margin: 50px auto;
+            width: 640px;
+            max-height: 100%;
+            z-index: 2;
+            position: relative;
+            padding: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+        }
+    }
+}
+
+

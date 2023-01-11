@@ -1,0 +1,79 @@
+{
+    "id": 1,
+    "brand": "Chevrolet Camaro",
+    "model": "Up",
+    "description": "Compacto de 3 puertas. Capacidad: 2 personas. Combustible: Eléctrico. Con todo el confort que un auto de estas carácticas puede ofrecer. ",
+    "city": {
+        "id": 1,
+        "city": "Buenos Aires",
+        "province": "CABA",
+        "country": "Argentina"
+    },
+    "category": {
+        "id": 1,
+        "category": "Lujoso",
+        "description": "Ideales para pasear por la ciudad o si estas en viaje de negocios",
+        "img": "https://images.unsplash.com/photo-1586143117324-4eee90b9ca2b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=866&q=80",
+        "price": 15000.0
+    },
+    "patente": "AA123AB",
+    "portada_url": "https://img.freepik.com/foto-gratis/blanco-moderno-aparcamiento-deportivo-carretera_114579-4025.jpg?w=996&t=st=1667342107~exp=1667342707~hmac=a2447714af3e94567c6da742e76b7e4e44b4c66d8f93f9009b54be86e10e0395",
+    "characteristics": [
+        {
+            "id": 1,
+            "characteristic": "Audio System",
+            "url_icon": "fa-solid fa-check"
+        },
+        {
+            "id": 2,
+            "characteristic": "Bluetooth",
+            "url_icon": "fa-solid fa-check"
+        },
+        {
+            "id": 3,
+            "characteristic": "Automatico",
+            "url_icon": "fa-solid fa-check"
+        },
+        {
+            "id": 4,
+            "characteristic": "Electrico",
+            "url_icon": "fa-solid fa-check"
+        },
+        {
+            "id": 5,
+            "characteristic": "Parking",
+            "url_icon": "fa-solid fa-check"
+        },
+        {
+            "id": 6,
+            "characteristic": "Cupe",
+            "url_icon": "fa-solid fa-check"
+        }
+    ],
+    "images":[{
+        "id": 1,
+        "title":"auto deportivo blanco",
+        "img":"https://img.freepik.com/foto-gratis/blanco-moderno-aparcamiento-deportivo-carretera_114579-4025.jpg?w=996&t=st=1667342107~exp=1667342707~hmac=a2447714af3e94567c6da742e76b7e4e44b4c66d8f93f9009b54be86e10e0395"
+        },
+        {
+        "id": 2,
+        "title":"auto coupe plateado",
+        "img":"https://img.freepik.com/foto-gratis/coupe-deportivo-plateado-carretera_114579-4002.jpg?w=996&t=st=1667342128~exp=1667342728~hmac=ab9ed8930f61e48cfefaafc8fc550f99ba3cbca8e48bf802e37255456a531826"
+        },
+        {
+        "id": 3,
+        "title":"auto deportivo blanco",
+        "img":"https://img.freepik.com/foto-gratis/coche-deportivo-amarillo-autotuning-negro-carretera_114579-5051.jpg?w=996&t=st=1667342276~exp=1667342876~hmac=42a900563c5e82b18b659b64b8c2e20963b53407857776b425896ef50c824333"
+        },
+        {
+        "id": 4,
+        "title":"auot sedan plateado",
+        "img":"https://img.freepik.com/foto-gratis/mujer-arrancando-motor-su-coche_23-2148958814.jpg?w=996&t=st=1667342485~exp=1667343085~hmac=16e0c89ec57d2de0f07e794b887e0413260d16bc147ad5c056cab7cc3376f229"
+        },
+        {
+        "id": 5,
+        "title":"auto deportivo amarillo",
+        "img":"https://img.freepik.com/foto-gratis/coche-deportivo-plateado-conductor-carretera_114579-4004.jpg?w=996&t=st=1667342140~exp=1667342740~hmac=242357ca648cabd87d8ab5d04400befe1d3884504a72da1fe96c2c6f1c21ec13"
+        }
+        ]
+}

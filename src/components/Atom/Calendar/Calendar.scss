@@ -1,0 +1,143 @@
+@use "./../../../styles/colors" as *;
+
+/* STYLE: PRUEBA */
+span.rdrStartEdge.rdrEndEdge {
+    color: transparent !important;
+}
+.rdrDay:not(.rdrDayPassive) .rdrStartEdge ~ .rdrDayNumber span, .rdrDay:not(.rdrDayPassive) .rdrEndEdge ~ .rdrDayNumber span{
+    color: #191b1d !important;
+}
+.rdrDayNumber span {
+    color: #1d2429 !important;
+}
+.rdrDayToday .rdrDayNumber span:after{
+    background: #f0572d !important;
+}
+
+.rdrInRange.rdrDayNumber span{
+    color: red !important;
+}
+
+.rdrMonths {
+    margin: 5px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.rdrMonthAndYearPickers {
+    display: none;
+    height: 0;
+}
+
+.rdrMonthAndYearWrapper {
+    position: relative;
+    top: 165px;
+    height: 0 !important;
+    
+}
+
+.rdrCalendarWrapper {
+    width: 100%;
+}
+
+.rdrDayDisabled {
+    filter: grayscale(100%) opacity(60%);
+    background-color: rgb(196, 193, 193);
+}  
+
+
+.rdrNextPrevButton {
+    border-radius: 50px;
+    background: $orange;
+}
+
+.rdrMonthName {
+    font-size: 15px;
+    color: $orange;
+    padding: 5px;
+}
+
+.calendar_input_container{
+    width: 100%;
+    display: flex;
+}
+
+.calendar_icon_date {
+    align-self: center;
+    margin: 5px;
+}
+
+.calendar_input_date {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #7F7F7F;
+    display: flex;
+    flex-direction: row;
+    background-color: $white;
+    outline: none;
+}
+
+.calendar_container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+
+}
+
+.calendar {
+    width: 100%;
+    position: absolute;
+    top: 45px;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 1px 1px 1px 2px rgb(0 0 0 / 15%);
+}
+
+.btn_calendar {
+    width: 80%;
+    height: 40px;
+    background-color: $orange;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    border-style: hidden;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: $black;
+    align-self: center;
+    margin-bottom: 18px;
+
+}
+
+
+@media (min-width: 768px) {
+    .calendar_container {
+        width: 45%;
+    }
+    .calendar{
+        min-width: 440px;
+    }
+} 
+
+@media (min-width: 1024px) {
+    .calendar{
+        min-width: 600px;
+    }
+
+    .btn_calendar {
+        align-self: end;
+        margin-right: 30px;
+        max-width: 200px;
+    }
+}
+

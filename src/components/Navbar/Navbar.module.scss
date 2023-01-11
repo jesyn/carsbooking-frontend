@@ -1,0 +1,113 @@
+@use "./../../styles/colors" as *;
+
+.navbar_container {
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: $light-grey;
+    font-family: 'Roboto', 'sans-serif';
+    top: 0;
+    z-index: 2;
+}
+
+.link {
+    text-decoration: none; 
+    color: $grey;
+    align-items: center;
+}
+.link_logo {
+    text-decoration: none; 
+    color: $grey;
+    display: flex;
+    align-items: center;
+}
+
+.navbar_logo {
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.login {
+    display: none;
+}
+
+@media(min-width:768px){
+    .login{
+        flex-direction: row;
+        width: 50%;
+        display: flex;
+        padding: 10px;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+}
+
+.slogan {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    font-size: 0;
+}
+
+@media (min-width: 1024px) {
+    .slogan {
+        font-style:Italic;
+        font-size: 20px;
+    }
+}
+
+
+.logo {
+    width: 71px;
+    height: 52px;
+}
+
+.button {
+    align-items: center;
+    width: 206px;
+    height: 40px;
+    background-color: $light-grey;
+    border:1px solid $orange;
+    border-radius: 5px;
+    padding: 10px;
+    gap: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-right: 1rem;
+}
+.burger_icon{
+    background-color: $light-grey;
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .burger_icon {
+        display: none;
+        
+    }
+}
+
+.menu {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    z-index: 2;
+}

@@ -1,0 +1,48 @@
+@use "./../../../styles/colors" as *;
+
+.noBookings_container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    p {
+        font-size: 16px;
+    }
+    span {
+        color: $orange;
+    }
+    img {
+        border-radius: 4px;
+        opacity: 0.6;
+        width: 80%;
+    }
+}
+
+.noBookings_title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.noBookings_info {
+    margin: 10px;
+    text-align: center;
+}
+
+@media(min-width:768px){
+    .noBookings_container img{
+        width: 60%;
+    }
+    
+}
+
+@media(min-width:1024px){
+    .noBookings_container img{
+        width: 40%;
+    }
+}
+
+@media(min-width:1440px){
+    
+}

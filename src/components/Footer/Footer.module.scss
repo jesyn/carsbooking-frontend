@@ -1,0 +1,43 @@
+@use "./../../styles/colors" as *;
+
+.footer_container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $orange;
+    font-family: 'Roboto', 'sans-serif';
+    color: $black;
+
+}
+
+.icons {
+    display: none;
+}
+
+.footer_iso {
+    margin-left: 19px;
+}
+
+@media(min-width:768px){
+    .icons {
+        display: flex;
+        margin-right: 31px;
+    }
+    .footer_iso{
+        margin-left: 31px;
+    }
+}
+
+@media(min-width:1024px){
+    .icons {
+        display: flex;
+        margin-right: 50px;
+    }
+    .footer_iso{
+        margin-left: 50px;
+    }
+}

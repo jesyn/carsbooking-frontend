@@ -1,0 +1,26 @@
+@use "./../../../styles/colors" as *;
+
+.icons {
+    display: flex;
+    gap: 1rem;
+    margin-right: 1rem;
+    font-size: 24px;
+    justify-content: flex-end;
+    a {
+        color: $grey;
+    }
+}
+
+@media(min-width:768px){
+    .icons a{
+        color: $light-grey
+    }
+}
+
+.icon {
+    width: 28px;
+    height: 27px;
+    
+    
+}
+

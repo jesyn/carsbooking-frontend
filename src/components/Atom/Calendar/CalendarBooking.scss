@@ -1,0 +1,75 @@
+@use "./../../../styles/colors" as *;
+
+/* STYLE: PRUEBA */
+span.rdrStartEdge.rdrEndEdge {
+    color: transparent !important;
+}
+
+.rdrDay:not(.rdrDayPassive) .rdrStartEdge ~ .rdrDayNumber span, .rdrDay:not(.rdrDayPassive) .rdrEndEdge ~ .rdrDayNumber span{
+    color: #191b1d !important;
+}
+
+.rdrDayNumber span {
+    color: #1d2429 !important;
+}
+
+.rdrDayToday .rdrDayNumber span:after{
+    background: #f0572d !important;
+}
+
+.rdrInRange.rdrDayNumber span{
+    color: red !important;
+}
+
+.rdrMonths {
+    margin: 5px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.rdrMonthAndYearPickers {
+    display: none;
+    height: 0;
+}
+
+.rdrMonthAndYearWrapper {
+    position: relative;
+    top: 140px;
+    height: 0 !important;
+    
+}
+
+.rdrCalendarWrapper {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.rdrDayDisabled {
+    filter: grayscale(100%) opacity(60%);
+    background-color: rgb(196, 193, 193);
+}  
+
+.rdrNextPrevButton {
+    border-radius: 50px;
+    background: $orange;
+}
+
+.rdrMonthName {
+    font-size: 15px;
+    color: $orange;
+    padding: 5px;
+}
+
+.calendar_container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+}
+
+@media (min-width: 1024px) {
+    .rdrMonths {
+        gap: 30px;
+    }
+}
+

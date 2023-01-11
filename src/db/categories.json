@@ -1,0 +1,30 @@
+{"categories":[{
+    "id": 1,
+    "category":"Classic",
+    "img":"https://images.unsplash.com/photo-1586143117324-4eee90b9ca2b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=866&q=80",
+    "price": "Desde $15000 por día",
+    "description":""
+    },
+    {
+    "id": 2,
+    "category":"Familiar",
+    "img":"https://images.unsplash.com/photo-1606611013016-969c19ba27bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "price": "Desde $20000 por día",
+    "description":""
+    },
+    {
+    "id": 3,
+    "category":"Aventura",
+    "img":"https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "price": "Desde $25000 por día",
+    "description":""
+    },
+    {
+    "id": 4,
+    "category":"Lujosos",
+    "img":"https://images.unsplash.com/flagged/photo-1553505192-acca7d4509be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1190&q=80",
+    "price": "Desde $30000 por día",
+    "description":""
+    }
+    ]
+}

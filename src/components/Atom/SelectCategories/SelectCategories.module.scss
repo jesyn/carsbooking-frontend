@@ -1,0 +1,96 @@
+@use "./../../../styles/colors" as *;
+
+.location {
+    width: 100%;
+    background-color: $white;
+    height: 40px;
+    font-size: 14px;
+    color: #7F7F7F;
+    display: flex;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 15%);
+}
+
+.select {
+    width: 100%;
+    background-color: $white;
+    display: flex;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.preselected_option {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.category_name {
+    padding-left: 5px;
+}
+
+.list_container {
+    width: 100%;
+    position: absolute;
+    top: 45px;
+    right: 1px;
+    z-index: 1;
+
+}
+
+.list_container ul {
+    height: 150px;
+    overflow-y: scroll;
+    list-style: none;
+    background-color: $white;
+    padding: 5px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 15%);
+}
+
+.list_container li {
+    width: 100%;
+    padding: 5px;
+}
+
+.list_container li:hover{
+    background-color: #EFC4B8;
+}
+
+.text_container {
+    display: flex;
+    padding: 5px;
+}
+
+.category_option {
+    font-weight: bold;
+}
+
+.divider {
+    background-color: $orange;
+    height: 1px;
+    margin: 5px;
+}
+
+.icon {
+    margin-right: 10px;
+    color: #191B1D;
+    align-self: center;
+}
+
+@media (min-width: 768px) {
+    .location{
+        margin-bottom: auto;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .location{
+        margin-bottom: auto;
+        
+    }
+
+}

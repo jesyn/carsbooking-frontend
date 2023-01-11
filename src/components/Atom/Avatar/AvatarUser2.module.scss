@@ -1,0 +1,69 @@
+@use "./../../../styles/colors" as *;
+
+.avatar_header {
+    width: 100%;
+    color: $black;
+    font-weight: Bold;
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.circle {
+    background-color: $black;
+    border-radius: 100%;
+    height: 37px;
+    width: 37px;
+    display: flex;
+    justify-content: center;
+    padding: 20%;
+}
+
+.initials {
+    color: $white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.avatar_header h2 {
+    font-size: 16px;
+
+}
+
+.avatar_header p {
+    font-size: 16px;
+    color: $orange;
+
+}
+
+.avatar_header button{
+    align-self: start;
+    background-color: $light-grey;
+}
+
+.v_line{
+    border-left: 3px solid #000;
+    height:80%;
+    left: 50%;
+}
+
+.bookings_list {
+    color: $black;
+    font-weight: Bold;
+    font-size: 16px;
+    text-decoration: none
+}
+
+a {
+    text-decoration: none;
+}

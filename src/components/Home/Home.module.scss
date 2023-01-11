@@ -1,0 +1,59 @@
+@use "./../../styles/colors" as *;
+
+.body {
+    align-items: center;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    height: 100%;
+    margin-bottom: 60px;
+    margin-top: 90px;
+    width: 100%;
+    
+}
+.search{
+    width: 100%;
+    background-color: $grey;
+    color:$light-grey;
+    padding: 1rem;
+}
+
+.title {
+    width: 100%;
+    height: 40px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 42px;
+    text-align: center;
+    
+}
+
+.sub_title {
+    font-size: medium;
+    text-align: center;
+    padding: 1rem;
+}
+
+.cards_container {
+    background-color: $light-grey;
+    width: 100%;
+}
+
+@media(max-width:360px){
+    .title{
+        font-size: 18px;
+    }
+}
+
+@media(min-width:768px){
+    .title{
+        font-size: 36px;
+    }
+}
+
+@media(min-width:1024px){
+    .title{
+        font-size: 36px;
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "brand": "ford",
+    "model": "fiesta",
+    "description": "",
+    "rules":"La tolerancia de la reserva será de una hora. En los casos que soliciten permiso de cruce de frontera, la cobertura mecánica y el acarreo en el exterior serán a cargo del cliente. ",
+    "insurance":"PLUS COVER - Cobertura que reduce 100% la franquicia por daños de colisión",
+    "cancellation":"Ante una cancelación o no show de la reserva pre pagada online, se retendrá un 4% + IVA de la misma en concepto de gastos administrativos y se aplicará un cargo por cancelación.",
+    
+    "city": {
+        "id": 4
+        
+    },
+    "category": {
+        "id": 1
+        
+    }
+    ,
+    "patente": "55ffd",
+    "characteristics": [
+                        {"id":2 
+                                },
+                        {"id":3
+                                },
+                        {"id":5
+                        }]
+    
+}

@@ -1,0 +1,46 @@
+@use "./../../../styles/colors" as *;
+
+.popUp {
+    &backdrop {
+        background: rgba(240, 87, 45, 0.6);
+        bottom: 0;
+        left: 0;
+        overflow: auto;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        margin-top: 92px;
+    
+    }
+    &container {
+        background: $white;
+        border-radius: 5px;
+        margin: 50px auto;
+        width: 640px;
+        z-index: 2;
+        position: relative;
+    }
+    &Button {
+        position: absolute;
+        background-color: transparent;
+        color: $white;
+        right: 0;
+        margin: 20px;
+        margin-left: 10px;
+        font-size: 24px;
+        font-weight: 500;
+        z-index: 3;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 2560px) { 
+    .popUp {
+        &container{
+            margin: 300px auto;
+        }
+    }
+}
+
